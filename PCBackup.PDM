@@ -1,0 +1,102 @@
+[Root]
+Most Recent Package=PCBackup
+
+
+[Package|PCBackup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Projects\PC Backup\Package
+
+[Package|PCBackup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|PCBackup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|PCBackup|Files Found]
+
+[Package|PCBackup|Files Released]
+
+[Package|PCBackup|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\WINNT\system\nslock15vb5.ocx=
+
+[Package|PCBackup|Out-of-Date Dependency Information]
+
+[Package|PCBackup|Files Added]
+
+[Package|PCBackup|Files Removed]
+
+[Package|PCBackup|Files In Project]
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system\nslock15vb5.ocx=Yes
+C:\My Projects\PC Backup\PCBackup.exe=Yes
+
+[Package|PCBackup|Configure Registry Files]
+Applicable=No
+
+[Package|PCBackup|Configure Remote Servers]
+Applicable=No
+
+[Package|PCBackup|Install Locations]
+C:\My Projects\PC Backup\PCBackup.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Projects\PC Backup 1.0\PCBackup.exe=$(AppPath)
+C:\WINNT\system\nslock15vb5.ocx=$(WinSysPath)
+
+[Package|PCBackup|Configure Shared Files]
+Applicable=Yes
+C:\My Projects\PC Backup\PCBackup.exe=No
+C:\My Projects\PC Backup 1.0\PCBackup.exe=No
+
+[Package|PCBackup|Distribution]
+Type=single
+Size=
+Title=PC Backup ver 1.0
+
+[Package|PCBackup|IconGroups]
+Group0=PC Backup ver 1.0
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|PCBackup|PC Backup ver 1.0]
+Icon1=PCBackup.exe
+Title1=PC Backup ver 1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|PCBackup|Package]
+PackageFolder=C:\My Projects\PC Backup\Package
+ProjectFolder=C:\My Projects\PC Backup
+ServerSideCab=
+File1=C:\My Projects\PC Backup\Package\setup.exe
+File2=C:\My Projects\PC Backup\Package\Setup.Lst
+File3=C:\My Projects\PC Backup\Package\PCBackup.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
